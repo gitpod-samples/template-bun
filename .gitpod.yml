@@ -1,0 +1,15 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Run Script Using Bun
+    command: bun run hashing.js
+    openMode: split-left
+
+  - name: Run Dev Server
+    command: bun dev
+    openMode: split-right
+
+ports:
+  - port: 3000
+    onOpen: open-preview
