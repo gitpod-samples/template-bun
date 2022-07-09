@@ -1,19 +1,24 @@
-# Bun Template for Gitpod
+# React with Bun runtime
 
-Spin up the [Bun](https://bun.sh) Server with a Single Click on Gitpod
+This is a React project boostrapped with bun.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Siddhant-K-code/bun-on-gitpod)
+## Getting Started
 
-## Run Any Script
+### Cloning the repo
 
 ```sh
-bun run hashing.js
+bun create react ./app
 ```
 
-## Run the Dev Server
+### Development
 
-```sh
+First, run the development server.
+
+```
 bun dev
 ```
-> Currently this will render the `index.html` file
+
+Open http://localhost:3000 with your browser to see the result.
+
+You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
 
