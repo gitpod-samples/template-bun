@@ -9,7 +9,7 @@ This is a React project boostrapped with bun.
 ```sh
 bun install
 (or)
-bun install --backend=copyfile
+bun install --backend=copyfile && bun bun
 ```
 
 ### Development
