@@ -4,10 +4,12 @@ This is a React project boostrapped with bun.
 
 ## Getting Started
 
-### Cloning the repo
+### Install packages
 
 ```sh
-bun create react ./app
+bun install
+(or)
+bun install --backend=copyfile
 ```
 
 ### Development
