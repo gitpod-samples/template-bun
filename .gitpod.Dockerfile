@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/
 
 RUN curl -fsSL https://bun.sh/install | bash
 RUN echo 'export BUN_INSTALL="/home/gitpod/.bun"' >> /home/gitpod/.bashrc.d/600-bun | bash && \
