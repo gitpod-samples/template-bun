@@ -21,4 +21,4 @@ Run the development server.
 bun dev
 ```
 
-You can start editing the page by modifying src/pages/App.tsx. The page auto-updates as you edit the file.
+You can start editing the page by modifying src/pages/Home.tsx. The page auto-updates as you edit the file.
