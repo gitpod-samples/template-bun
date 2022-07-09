@@ -1,8 +1,8 @@
 import React from 'react'
 import "assets/css/App.css"
-const logo = require("../assets/images/logo.svg") as string
 
 export default function Home() {
+  const logo = require("../assets/images/logo.svg")
   return (
     <div className="App">
     <header className="App-header">
