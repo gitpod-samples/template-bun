@@ -14,7 +14,7 @@ bun install --backend=copyfile && bun bun
 
 ### Development
 
-First, run the development server.
+Run the development server.
 
 ```
 bun dev
