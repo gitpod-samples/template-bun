@@ -1,19 +1,19 @@
-# Bun Template for Gitpod
+# A Bun template on Gitpod
 
-Spin up the [Bun](https://bun.sh) Server with a Single Click on Gitpod
+This is a [Bun](https://bun.sh/) template generator configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Siddhant-K-code/bun-on-gitpod)
+## Next Steps
 
-## Run Any Script
+Click the button below to start a new development environment:
 
-```sh
-bun run hashing.js
-```
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-bun)
 
-## Run the Dev Server
+## Get Started With Your Own Project
 
-```sh
-bun dev
-```
-> Currently this will render the `index.html` file
+### A new project
 
+Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+
+### An existing project
+
+Copy and commit the [`.gitpod.yml`](./.gitpod.yml) to your existing project to have the same configuration of this template. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.

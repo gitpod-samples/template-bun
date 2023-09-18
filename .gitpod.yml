@@ -1,13 +1,18 @@
 image: gitpod/workspace-bun
 
 tasks:
-  - name: Run Script Using Bun
-    command: bun run hashing.js
-    openMode: split-left
-
-  - name: Run Dev Server
-    command: bun dev
-    openMode: split-right
+  - name: Init a bun project and run
+    init: |
+      # Init a project if needed
+      if test ! -e package.json; then {
+        bun init -y
+      } fi
+      # Install dependencies
+      bun install
+      
+    command: |
+      # Run project
+      bun run index.ts
 
 ports:
   - port: 3000
