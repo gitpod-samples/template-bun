@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-bun
 
 tasks:
   - name: Run Script Using Bun
