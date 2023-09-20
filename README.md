@@ -6,7 +6,7 @@ This is a [Bun](https://bun.sh/) template generator configured for ephemeral clo
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-bun)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-samples/template-bun)
 
 ## Get Started With Your Own Project
 
